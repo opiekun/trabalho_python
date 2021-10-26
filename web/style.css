@@ -1,0 +1,17 @@
+#livros {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#livros tr:nth-child(even){background-color: #f2f2f2;}
+
+#livros tr:hover {background-color: #ddd;}
+
+#livros th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e760bf;
+    color: white;
+  }
